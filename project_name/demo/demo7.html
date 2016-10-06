@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>test</title>
+</head>
+<body>
+
+  <script>
+    function spacify(str) {  
+      return str.split('').join(' ');
+    }
+    console.log(spacify("str"));
+    String.prototype.spacify = function(){  
+      return this.split('').join(' ');
+    };
+
+    console.log("dsdsaad".spacify());
+
+    function log(){  
+      console.log(arguments.join(""));
+    }
+
+    log("aaa","ss",1);
+  </script>
+</body>
+</html>

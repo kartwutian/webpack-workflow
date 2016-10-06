@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/example.js"],"names":["console","log","x"],"mappings":";;AACAA,QAAQC,GAAR,CAAa,UAACC,CAAD;AAAA,SAAKA,IAAEA,CAAP;AAAA,CAAD,CAAW,CAAX,CAAZ","file":"example.js","sourcesContent":["\r\nconsole.log(((x)=>x*x)(5));"]}
